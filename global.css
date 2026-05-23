@@ -1,0 +1,44 @@
+/* -----RESET DOS CSS ----- */
+*{
+    border: 0; /*Zerar borda*/
+    margin: 0; /*Zerar Margin*/
+    padding: 0; /*Zerar Padding*/
+    box-sizing: border-box; /*Respeitar largura e altura*/
+}
+
+/* ----- VARIAVEIS----- */
+:root{
+
+    /*CORES*/
+    --color-white: #FFFFFF; 
+    --color-l-black: #0F0F0F; 
+    --color-black: #000000; 
+    --color-d-gray: #4D4D4D; 
+    --color-gray: #999999; 
+    --color-pink: #FF3CAC; 
+
+    /*FONTES*/
+    --font-size-h1: 50px; 
+    --font-size-h2: 45px; 
+    --font-size-h3: 27px; 
+    --font-size-h4: 21px;
+    --font-size-body1: 20px; 
+    --font-size-body2: 18px; 
+    --font-size-body3: 16px; 
+    --font-size-body4: 14px; 
+
+    --line-height-h1: 110%;
+    --line-height-h2: 100%;
+    --line-height-h3: 140%;
+
+    --font-weigth-h1: 700; 
+    --font-weigth-h2: 600; 
+    --font-weigth-h3: 600; 
+    --font-weigth-h4: 500; 
+    --font-weigth-body: 400; 
+    --font-weigth-button: 700; 
+    --font-weigth-caption: 400;
+
+    --font-family-primary:"Inter", sans-serif; 
+    --font-family-secondary:"Alexandria", sans-serif; 
+}
