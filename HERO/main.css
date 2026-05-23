@@ -1,0 +1,55 @@
+@import url("../src/styles/global.css");
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 60px 0;
+
+    background-color: var(--color-black); 
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 546px;
+}
+
+.hero-batch{
+    width: fit-content;
+    padding: 10px 12px 10px 12px;
+    border: 1px solid var(--color-d-gray);
+    border-radius: 10px;
+    color: var(--color-pink);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-body4);
+}
+
+h1{
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-h1);
+}
+
+.span-h1{
+    color: var(--color-pink);
+}
+
+p{
+    color: var(--color-gray);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-body2);
+}
+
+.btn-primary{
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    padding: 14px 24px;
+    border-radius: 10px;
+
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-body3);
+    line-height: var(--line-height-h3);
+}
