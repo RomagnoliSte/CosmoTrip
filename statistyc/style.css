@@ -1,0 +1,76 @@
+@import url("../src/styles/global.css");
+
+
+.section-statistyc{
+
+  display: flex; 
+  padding: 40px;
+  justify-content: center;
+  background-color: var(--color-l-black);
+  gap: 40px;
+  text-align: center;
+ 
+
+} 
+.section-200 h2{ 
+
+    font-family: var(--font-family-alexandria);
+    color: var(--color-pink);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weigth-h4);
+}
+.section-500 h2{
+
+    font-family: var(--font-family-alexandria);
+    color: var(--color-pink);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weigth-h4);
+
+    
+}
+.setion-o h2{
+
+    font-family: var(--font-family-alexandria);
+    color: var(--color-pink);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weigth-h4);
+
+
+}
+.section-100 h2{
+
+    font-family: var(--font-family-alexandria);
+    color: var(--color-pink);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weigth-h4);
+
+}
+.section-200 p{ 
+     
+    font-family: var(--font-family-inter);
+    color: var(--color-gray);
+    font-size: var(--font-size-body2);
+    font-weight: var(--color-gray);
+}   
+.section-100 p{ 
+
+    font-family: var(--font-family-inter);
+    color: var(--color-gray);
+    font-size: var(--font-size-body2);
+    font-weight: var(---color-gray);
+}
+.setion-o p{
+
+   font-family: var(--font-family-inter);
+    color: var(--color-gray);
+    font-size: var(--font-size-body2);
+    font-weight: var(--font-weigth-body);
+}
+.section-500 p{
+    
+    font-family: var(--font-family-inter);
+    color: var(--color-gray);
+    font-size: var(--font-size-body2);
+    font-weight: var(--font-weigth-body);
+    
+}
