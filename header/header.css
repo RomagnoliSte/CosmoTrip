@@ -5,6 +5,7 @@ header{
     align-items: center;
     background-color: var(--color-black);
     justify-content: space-evenly;
+    padding: 22px 0;
 
 }
 
@@ -16,7 +17,7 @@ header{
     list-style: none;
 }
 
-.nav-header ul li{
+.nav-header ul li{                                                                                                                                                                                                                                                                                                                                                  
     list-style: none;
 
 }
@@ -34,8 +35,12 @@ header{
     background-color: var(--color-pink);
     padding: 10px 24px;
     font-size: var(--font-size-body3);
+    transition: 0.3s;
 
-  
+}
+
+.btn-header:hover{
+    background-color: rgb(150, 26, 139);
 }
 
 
