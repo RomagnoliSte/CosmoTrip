@@ -1,0 +1,47 @@
+@import url("../src/styles/global.css");
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-black);
+    justify-content: space-evenly;
+    padding: 22px 0;
+
+}
+
+.nav-header{
+    display: flex;
+    color: var(--color-gray);
+    gap: 40px;
+    font-family: var(--font-family-alexandria);
+    list-style: none;
+}
+
+.nav-header ul li{                                                                                                                                                                                                                                                                                                                                                  
+    list-style: none;
+
+}
+.nav-header ul li span{
+    color: var(--color-pink);
+   
+}
+
+.btn-header{
+
+    color: var(--color-white);
+    text-decoration: none;
+    font-family: var(--font-family-alexandria);
+    border-radius: 10px;
+    background-color: var(--color-pink);
+    padding: 10px 24px;
+    font-size: var(--font-size-body3);
+    transition: 0.3s;
+
+}
+
+.btn-header:hover{
+    background-color: rgb(150, 26, 139);
+}
+
+
+
